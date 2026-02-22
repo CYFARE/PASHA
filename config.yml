@@ -1,0 +1,17 @@
+# PASHA Configuration File
+# Add multiple keys to enable automatic rotation
+
+api_keys:
+  virustotal:
+    - "YOUR_VT_KEY_1"
+    - "YOUR_VT_KEY_2"
+  securitytrails:
+    - "YOUR_ST_KEY_1"
+  shodan:
+    - "YOUR_SHODAN_KEY_1"
+  chaos:
+    - "YOUR_CHAOS_KEY_1"
+
+settings:
+  threads: 50
+  timeout: 30
